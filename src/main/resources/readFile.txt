@@ -1,0 +1,2 @@
+This is file is to test the junit4 and
+file read.

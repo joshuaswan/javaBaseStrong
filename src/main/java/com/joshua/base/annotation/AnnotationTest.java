@@ -15,7 +15,9 @@ public class AnnotationTest {
         System.runFinalizersOnExit(true);
     }
 
-    //这也是JDK内部自带的一个注释，意思就是说这个方法已经废弃了，不建议使用
+    /**
+     * 这也是JDK内部自带的一个注释，意思就是说这个方法已经废弃了，不建议使用
+     */
     @Deprecated
     public static void sayHello(){
         System.out.println("hi, joshua");
